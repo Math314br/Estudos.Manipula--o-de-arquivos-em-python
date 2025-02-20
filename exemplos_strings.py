@@ -1,3 +1,4 @@
+from datetime import datetime
 #contador de linhas
 with open("frases.txt",encoding='utf-8') as  arquivo:
     contador = 0
@@ -29,3 +30,11 @@ lista2 = frase2.split()
 print(lista2)
 lista3 = frase3.split(",")
 print(lista3)
+
+#precisão numerica
+valor = 3.14159
+print (f"Valor de Pi com 2 casas decimais: {valor:.2f}")
+# data formatada
+hoje = datetime.now()
+dataFormatada = f"Data: {hoje:%d/%m/%y}"
+print(dataFormatada)
