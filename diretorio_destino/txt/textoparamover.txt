@@ -1,0 +1,1 @@
+esse texto é movido automaticamente ao gerar meu script de movimentaçao para diretorio destino txt 
